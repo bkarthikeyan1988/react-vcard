@@ -1,0 +1,67 @@
+body {
+  background: #EAF0F1;
+}
+
+.imgBlockContainer {
+  width: 150px;
+  height: 150px;
+  margin: 8px auto;
+}
+
+.vCardMainContainer {
+  width: 100%;
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+.vCardMainContainer .vCardContainer img {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.vCardContainer .imgBlock {
+  padding-bottom: 100%;
+  height: 0;
+  position: relative;
+}
+
+/* Theme Specific  */
+.vCardMainContainer .card.pinkTheme {
+  border: 2px solid #E74292;
+  background: rgba(231,66,146,0.1);
+  color: #E74292;
+}
+
+.vCardMainContainer .card.blueTheme {
+  border: 2px solid #0a79df;
+  background: rgba(10, 121, 223,0.1);
+  color: #0a79df;
+}
+
+.card.pinkTheme img {
+  border-color: #E74292;
+  border-width: 2px;
+}
+
+.card.blueTheme img {
+  border-color: #0a79df;
+  border-width: 2px;
+}
+
+.contactPhoneNumber {
+  border: 0;
+  border-top-width:1px;
+  border-style: solid;
+  font-size: 11px;
+}
+
+.cardAddr {
+  border: 0;
+  border-top-width:1px;
+  border-style: dashed;
+}
